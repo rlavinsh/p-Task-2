@@ -47,16 +47,7 @@ function App() {
         <h2>Featured Products</h2>
 
         <div className="product-grid">
-          {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              name={product.name}
-              price={product.price}
-              category={product.category}
-              emoji={product.emoji}
-              inStock={product.inStock}
-            />
-          ))}
+          <ProductCard />
         </div>
       </main>
     </div>
